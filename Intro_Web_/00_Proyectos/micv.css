@@ -1,0 +1,126 @@
+
+body {
+    background-color: black;
+}
+
+h2{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(157, 233, 207);
+}
+
+h3 {
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(241, 173, 148);
+}
+
+h4 {
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(250, 248, 248);
+}
+
+li {
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: lighter;
+    text-align: justify;
+    color: rgb(243, 191, 220);
+}
+
+p {
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: lighter;
+    text-align: justify;
+    color: rgb(175, 241, 155); 
+}
+
+.nombre {
+    font-family: monospace;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(231, 163, 201);
+}
+
+.name {
+    height: 220px;
+}
+
+img {
+    height: 180px;
+    padding-left: 70px;
+}
+
+/* Aqui empieza el box */
+
+#titulo {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    padding: 50px 100px;
+    bottom: 3px;
+    border: double whitesmoke;
+    margin-left: 500px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+
+#intro {
+    background-image: url("./img/stars.gif");
+    padding: 30px 100px;
+}
+
+#datos {
+    margin: 100px 500px 100px 500px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    border-top: dotted white;
+    border-bottom: dotted white;
+}
+
+#estudios {
+    margin: 100px 500px 100px 500px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    border-top: dotted white;
+    border-bottom: dotted white;
+}
+
+#habilidades {
+    margin: 100px 500px 100px 500px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    border-top: dotted white;
+    border-bottom: dotted white;
+}
+
+#hobbies {
+    margin: 100px 500px 100px 500px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    border-top: dotted white;
+    border-bottom: dotted white;
+}
+
+#extra {
+    margin: 100px 500px 100px 500px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    border-top: dotted white;
+    border-bottom: dotted white;
+}
+
+#contacto {
+    margin: 100px 500px 100px 500px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    border-top: dotted white;
+    border-bottom: dotted white;
+}

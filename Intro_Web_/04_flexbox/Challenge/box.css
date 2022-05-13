@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.padre {
+    height: 600px;
+    width: 600px;
+    border: 2px dotted pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hijo {
+    height: 25%;
+    width: 25%;
+    border: 2px double rgb(161, 115, 204);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nietos {
+    height: 25%;
+    width: 25%;
+    border: 2px solid rgb(228, 72, 118);
+}
+
+
+.madre  {
+    height: 600px;
+    width: 600px;
+    border: 2px dotted rgb(69, 122, 201);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hija {
+    height: 25%;
+    width: 25%;
+    border: 2px double greenyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nietas {
+    height: 25%;
+    width: 25%;
+    border: 2px solid rgb(94, 94, 158);
+}

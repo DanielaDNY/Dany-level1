@@ -1,0 +1,72 @@
+#banner{
+    background-color: rgb(236, 147, 181);
+    width: 50%;
+    height: 300px;
+}
+
+#banner .content {
+    background-color: skyblue;
+}
+
+nav {
+    background-color: skyblue;
+    text-align:center;
+    font-family: monospace;
+    color: teal;
+    margin: 0;
+    padding: 0;
+}
+
+/* ¿Por qué se pone display inline block? */
+li {
+    display: inline-block;
+    font-size: 50px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+    color: slateblue;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    color: yellow;
+}
+
+#home {
+    background-color: tomato ;
+    padding: 50px 100px ;
+    bottom:  3px ;
+    border: solid black;
+    margin: 10px 50px 100px 200px;
+}
+
+#dog {
+    background-color: chocolate ;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    border: 10px dotted burlywood;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+}
+
+#cat {
+    background-image: url("./img/patito_khe.jpg");
+    font-family: monospace;
+    color:yellow
+}
+/* no funciona el display inline */
+#horse {
+    background-color: black ;
+    border: 1px solid;
+    color: aliceblue;
+    display: inline;
+}

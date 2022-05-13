@@ -1,0 +1,67 @@
+
+body {
+    background-color: #37203a;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color:purple;
+    text-align: center;
+}
+
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-style: oblique;
+    color:purple
+}
+/* no cambia el font family */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+a {
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+img {
+    height: 220px;
+}
+
+/* Selector de tipo clase */
+.amarillo {
+    text-align: justify;
+    font-family: monospace;
+    font-weight:lighter;
+    color: rgb(231, 231, 123);
+}
+.verde {
+    text-align: justify;
+    font-weight: lighter;
+    font-family: monospace;
+    color:rgb(117, 231, 106)
+}
+.azul {
+    font-family: monospace;
+    text-align: justify;
+    font-weight:lighter;
+    color:rgb(110, 125, 136)
+}
+.rosa {
+    font-family: monospace;
+    text-align: justify;
+    color:rgb(206, 94, 122);
+    font-weight:lighter;
+
+}
+#especial {
+    color:rgb(216, 228, 231);
+    font-size: 40px;
+    font-family: ;
+    font-weight:initial;
+}
